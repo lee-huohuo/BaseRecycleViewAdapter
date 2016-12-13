@@ -1,7 +1,21 @@
 # BaseRecycleViewAdapter
 对于ListView的接班人RecycleView，我们在平常使用的时候还是发现了一些不便，但不得不承认，比ListView更灵活，一切自己动手～～～
-        改封装类涵盖了ListView的OnItemClickListener    setEmpty(View view)方法，带有上拉加载的功能，当FooterView显示在
+        改封装类涵盖了ListView的OnItemClickListener  
+        
+        
+        mainActivity_Adapter.setOnItemClickListener(new FatherRecycleViewAdapter.OnItemClickListener() {
+            @Override
+            public void OnItemClick(int position) {
+                Toast.makeText(MainActivity.this, "" + position, Toast.LENGTH_SHORT).show();
+
+            }
+        });
+        
+        
+        setEmpty(View view)方法，带有上拉加载的功能，当FooterView显示在
         用户可见区域时，会回调OnGetData接口，我们在Activity Or Fragment类里，使用
+        
+        
         
         Adapter.setOnGetDataListener(new FatherRecycleViewAdapter.OnGetDataListener() {  
             @Override
