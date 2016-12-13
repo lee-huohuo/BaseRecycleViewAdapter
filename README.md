@@ -3,10 +3,9 @@
         改封装类涵盖了ListView的OnItemClickListener    setEmpty(View view)方法，带有上拉加载的功能，当FooterView显示在
         用户可见区域时，会回调OnGetData接口，我们在Activity Or Fragment类里，使用
         
-Adapter.setOnGetDataListener(new FatherRecycleViewAdapter.OnGetDataListener() {
+        Adapter.setOnGetDataListener(new FatherRecycleViewAdapter.OnGetDataListener() {  
             @Override
             public void onGetData() {
-
             }
         });
 在onGetData进行我们的更新请求，当数据添加后，如：在请求网络数据返回的JSON，解析成功并且添加入List，我们根据此时返回的JSON数组大小
