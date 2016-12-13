@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="default_line">#dcdcdc</color>
+    <color name="line">#dcdcdc</color>
+    <!-- <color name="title_colocr">#367EB8</color> -->
+    <color name="title_colocr">#9c7214</color>
+    <color name="common_oranage">#FF9933</color>
+    <color name="lanse">#4dc5e2</color>
+    <color name="hongse">#ae3924</color>
+    <color name="huise">#a7a7a7</color>
+    <color name="huibai">#dcdcdc</color>
+    <color name="cancal">#646464</color>
+    <color name="daifukuan">#ff5000</color>
+</resources>
